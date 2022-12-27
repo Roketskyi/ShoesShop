@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+    background-color: #689CD2;
+    color: #fff;
+    font-family: Verdana;
+}
+
+#button {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header_section {
+    display: flex;
+}
+
+.header_item {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+#button:hover {
+    background-color: #FF9900;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px
+}
+
+h1 {
+    /* position: absolute;   */
+    text-align: center;
+    transform: translate(0, 450%)
+}
